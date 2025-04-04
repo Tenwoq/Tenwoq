@@ -41,7 +41,6 @@
 - **aiogram** — фреймворк для Telegram-ботов;
 - **asyncpg** — асинхронный драйвер PostgreSQL;
 - **supabase** — клиент для взаимодействия с Supabase API;
-- **gspread** — экспорт данных в Google Sheets;
 - **qrcode** — генерация QR-кодов для билетов;
 - **python-dotenv** — загрузка конфигурации из `.env`;
 - **pytz** — корректная работа с часовыми поясами.
@@ -52,7 +51,18 @@
 aiogram
 asyncpg
 supabase
-gspread
 qrcode
 python-dotenv
 pytz
+```
+
+### Как запустить проект:
+```bash
+# Linux
+sudo apt update && sudo apt -y python3 python3-pip
+pip install -r requirements.txt
+
+# MacOS
+brew install python3 && brew install python3-pip
+pip install -r requirements.txt
+```
