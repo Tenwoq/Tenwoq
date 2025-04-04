@@ -58,7 +58,7 @@ pytz
 
 ## Как запустить проект:
 
-### Скачивание проекта 
+### Скачивание проекта:
 ```bash
 git clone https://github.com/example/example.git
 ```
