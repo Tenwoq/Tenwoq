@@ -56,7 +56,15 @@ python-dotenv
 pytz
 ```
 
-### Как запустить проект:
+## Запуск проекта
+
+```bash
+cd dvijbot/ticketbot
+python3 bot.py
+```
+
+### Установка зависимостей:
+
 ```bash
 # Linux
 sudo apt update && sudo apt -y python3 python3-pip
@@ -66,3 +74,4 @@ pip install -r requirements.txt
 brew install python3 && brew install python3-pip
 pip install -r requirements.txt
 ```
+
