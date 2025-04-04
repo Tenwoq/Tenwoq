@@ -56,7 +56,13 @@ python-dotenv
 pytz
 ```
 
-## Как запустить проект
+## Как запустить проект:
+
+### Скачивание проекта 
+```bash
+git clone https://github.com/example/example.git
+```
+
 ### Установка зависимостей:
 
 ```bash
@@ -69,12 +75,14 @@ brew install python3 && brew install python3-pip
 pip install -r requirements.txt
 ```
 
-### Запуск проекта
+### Запуск проекта:
 
 ```bash
 cd dvijbot/ticketbot
 python3 bot.py
 ```
+
+
 
 
 
