@@ -61,28 +61,27 @@ pytz
 ### Скачивание проекта:
 ```bash
 git clone https://github.com/example/example.git
+cd dvijbot/ticketbot
 ```
 
 ### Установка зависимостей:
 
 ```bash
 # Linux
-sudo apt update && sudo apt -y python3 python3-pip
+sudo apt update && sudo apt -y python3 python3-pip python3-venv
+python3 -m venv venv
 pip install -r requirements.txt
 
 # MacOS
-brew install python3 && brew install python3-pip
+brew install python3 && brew install python3-pip python3-venv
+python3 -m venv venv
 pip install -r requirements.txt
 ```
 
 ### Запуск проекта:
 
 ```bash
-cd dvijbot/ticketbot
+source venv/bin/activate
 python3 bot.py
+deactivate
 ```
-
-
-
-
-
